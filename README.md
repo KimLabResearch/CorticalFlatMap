@@ -6,7 +6,7 @@ This code here is designed to generate a flatmap visual representation with a im
 - Open *RUN_THIS_FILE.m*  in Matlab. Edit the setting to locate your input image. Run the script.  The script will gives you a *.nii*  file as the flatmap. 
 
 
-%% Setting
+## Setting
 
 *input_immage *
 The image have to be registered to Allen CCF with upright coronal
