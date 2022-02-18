@@ -4,14 +4,14 @@
 This code here is designed to generate a flatmap visual representation with a image that is registered (transformed) to the Allen CCF.   
 
 ## How to use
-- Download the required asset from http://kimlab.io/
+- Download the required asset from https://kimlab.io/data_share/files/NVU_young/Code_S2_Cortical_Flat_Map_NaN.zip
 - flat_map_data_20um_v2.mat
 - flat_map_data_10um_v2.mat
 - allen_20_anno_16bit.nii
 - allen_10_anno_16bit.nii
 - 16bit_allen_csv_20200916.csv
 - Open *RUN_THIS_FILE.m*  in Matlab. Edit the setting to locate your input image. Run the script.  The script will gives you a *.nii*  file as the flatmap. 
-- Download the media asset from http://kimlab.io/ to help your publication illustration
+- Download the media asset from https://kimlab.io/data_share/files/NVU_young/Code_S2_Cortical_Flat_Map_NaN.zip to help your publication illustration
 
 ## Setting
 *input_immage*
