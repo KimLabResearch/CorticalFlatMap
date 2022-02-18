@@ -17,7 +17,7 @@ This code here is designed to generate a flatmap visual representation with a im
 *input_immage*
 - The image have to be registered to Allen CCF with upright coronal posterial to anterial both nii and tif are okay
 ***output_folder***
-- 
+- output location
 ***output_name***
 - name here is used as prefix for the final file name output will be nii
 ***gaussian_preprocessing_pix***
@@ -27,10 +27,9 @@ This code here is designed to generate a flatmap visual representation with a im
 - projection_math = 'maximum'; maximum
 - projection_math = 'average'; average
 ***layer_specific***
-- 
-***Layer_specific_list*** 
 - layer_specific = 0 meaning all layers together
 - layer_specific = 1 meaning you want to plot layer specific map
+- ***Layer_specific_list*** 
 - Layer_specific_list =  {["1" ], ["2", "3", "4" ], ["5" ], ["6" ]}; pick layers
 
 
