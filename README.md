@@ -35,7 +35,7 @@ This code here is designed to generate a flatmap visual representation with a im
 - layer_specific = 0 meaning all layers together
 - layer_specific = 1 meaning you want to plot layer specific map
 
-- ***Layer_specific_list*** 
+***Layer_specific_list*** 
 - Layer_specific_list =  {["1" ], ["2", "3", "4" ], ["5" ], ["6" ]}; pick layers
 
 
