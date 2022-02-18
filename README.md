@@ -8,28 +8,31 @@ This code here is designed to generate a flatmap visual representation with a im
 
 %% Setting
 
-input_immage = 'E:\cell_counted_ref_space-artery.nii';
-% The image have to be registered to Allen CCF with upright coronal
-% posterial to anterial
-% both nii and tif are okay
+*input_immage *
+The image have to be registered to Allen CCF with upright coronal
+posterial to anterial
+both nii and tif are okay
 
-output_folder = pwd;
-output_name = 'testing';
-% name here is used as prefix for the final file name
-% output will be nii
+*output_folder*
+*output_name*
+name here is used as prefix for the final file name
+output will be nii
 
-gaussian_preprocessing_pix = 0;
-% gaussian_preprocessing_pix = 0; no preprocessing
-% gaussian_preprocessing_pix = 4; 4 pixel blurring
+*gaussian_preprocessing_pix *
+gaussian_preprocessing_pix = 0; no preprocessing
+gaussian_preprocessing_pix = 4; 4 pixel blurring
 
-projection_math = 'maximum';
-% projection_math = 'maximum'; maximum
-% projection_math = 'average'; average
+*projection_math 
+projection_math = 'maximum'; maximum
+projection_math = 'average'; average
 
-layer_specific = 0;
+*layer_specific*
 
-Layer_specific_list =  {["1" ], ["2", "3", "4" ], ["5" ], ["6" ]};
-% Layer_specific_list =  {["1" ], ["2", "3", "4" ], ["5" ], ["6" ]}; pick layers
+*Layer_specific_list *
+layer_specific = 0 meaning all layers together
+layer_specific = 1 meaning you want to plot layer specific map
+Layer_specific_list =  {["1" ], ["2", "3", "4" ], ["5" ], ["6" ]}; pick layers
+
 
 
 ## Limitations
